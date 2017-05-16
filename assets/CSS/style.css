@@ -12,6 +12,10 @@
 	top:0;
 	min-width:1000px;
 }
+html{
+	position:relative;
+	min-height:100%;
+}
 .content{
 	margin-top:20px;
 	width:700px;
@@ -159,7 +163,8 @@ a{
 }
 .bottom{
 	background-color:#29343D;
-	position:relative;
+	position:absolute;
+	bottom:0;
 	display:block;
 	height:70px;
 	width:100%;
@@ -212,6 +217,35 @@ a{
     background: transparent;
     transition: all 0s ease;
 }
+
+
+
+
+
+
+
+/*about styles*/
+
+.verticalContent{
+	background-color:white;
+	position:relative;
+	overflow:hidden;
+	margin-top:100px;
+	width:66%;
+	height:700px;
+	left:16.66%;
+	opacity:.9;
+	margin-bottom:125px;
+	border-radius:30px;
+}
+
+
+
+
+
+
+
+
 
 
 
